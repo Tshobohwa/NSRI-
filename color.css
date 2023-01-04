@@ -1,0 +1,51 @@
+body {
+    margin: 4vw;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    height: 10vw;
+    width: 20vw;
+    margin: 4vw;
+}
+
+.color1 {
+    background-color: #00183d;
+}
+
+.color2 {
+    background-color: #003b92;
+}
+
+.color3 {
+    background-color: rgb(0, 0, 105);
+}
+
+.color4 {
+    background-color: rgb(183, 183, 255);
+}
+
+.color5 {
+    background-color: #f3f3f3f3;
+}
+
+.color6 {
+    background-color: rgba(0, 0, 128, 0.044);
+}
+
+.color7 {
+    background-color: rgb(137, 168, 168);
+}
+
+.color8 {
+    background-color: yellowgreen;
+}
+
+.color9 {
+    background-color: darkblue;
+}
+
+.color10 {
+    background-color: rgb(120, 14, 14);
+}

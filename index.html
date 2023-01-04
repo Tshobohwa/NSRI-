@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
+	<title>NSRI | National Scientific Research Institut</title>
+	<script defer src="script.js"></script>
+</head>
+
+<body>
+	<!-- <div class="overlay">
+		<form class="login__form">
+			<div class="login__form--header">
+				<div class="login__logo--div">
+					<img src="./icons/univ-logo.png" class="login__logo">
+				</div>
+				<button class="exit__form--btn">
+					<img src="icons/exit-icon.png" class="exit__form--icon">
+				</button>
+			</div>
+	<div class="login__input--container">
+		<input type="text" class="login__input" placeholder="REGISTRATION NUMBER">
+		<input type="password" class="login__input" placeholder="PASSWORD">
+	</div>
+	<label class="login__form--label">REGISTRATION NUMBER</label>
+	<label class="login__form--label">PASSWORD</label>
+	</form>
+	</div> -->
+	<header class="header " id="home">
+		<div class="header__top">
+			<label class="top__header-label">contact us: </label>
+			<ul class="top__header--ul">
+				<li class="top__header--li">
+					<a href="" class="top__header--a"><img src="icons/telephone.png"></a>
+				</li>
+				<li class="top__header--li">
+					<a href="https://twitter.com/home" target="_blank" class="top__header--a"><img src="icons/twitter.png"></a>
+				</li>
+				<li class="top__header--li">
+					<a href="https://www.facebook.com/" target="_blank" class="top__header--a"><img src="icons/facebook.png"></a>
+				</li>
+				<li class="top__header--li">
+					<a href="https://www.instagram.com/?hl=fr" target="_blank" class="top__header--a"><img
+							src="icons/instagram.png"></a>
+				</li>
+			</ul>
+		</div>
+		<nav class="nav__bar">
+			<div class="nav__logo--div">
+				<img src="icons/univ-logo.png" class="nav__logo">
+				<img src="icons/univ-img.png" class="nav__logo--small">
+			</div>
+			<button class="nav__menu--btn">
+				<img src="icons/menu (1).png" class="nav__btn--img">
+			</button>
+			<button class="nav__exit--btn">
+				<img src="icons/exit-icon.png" class="nav__btn--img">
+			</button>
+			<ul class="nav__ul nav__pc">
+				<li class="nav__li">
+					<a href="#home" class="nav__link">Home</a>
+				</li>
+				<li class="nav__li">
+					<a href="#section__1" class="nav__link">About Us</a>
+				</li>
+				<li class="nav__li">
+					<a href="#section__3" class="nav__link">Faculties</a>
+				</li>
+				<li class="nav__li">
+					<a href="#section__7" class="nav__link">Actualities</a>
+				</li>
+				<li class="nav__li">
+					<a href="" class="nav__link log__in--btn">Log in</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="header__slider">
+			<div class="dots__btn--container"></div>
+			<button class="header__slider--btn header__btn--left"><img src="icons/left-arrow.png" alt=""></button>
+			<button class="header__slider--btn header__btn--right"><img src="icons/right-arrow.png" alt=""></button>
+			<div class="header__slide slide" id="header__slide--1">
+				<div class="header__slide--container">
+					<div class="header__slide--background">
+						<img src="./thumbnails/university-campus.jpg">
+					</div>
+					<div class="header__slide--containt">
+						<h3 class="slide__containt--head">Welcome at the</h3>
+						<div class="slide__containt--comment">
+							<img src="./icons/univ-img.png">
+						</div>
+						<h3 class="slide__containt--head">PLATFORM</h3>
+					</div>
+				</div>
+			</div>
+			<div class="header__slide slide" id="header__slide--2">
+				<div class="header__slide--container">
+					<div class="header__slide--background">
+						<img src="./thumbnails/bionic-hand.jpg">
+					</div>
+					<div class="header__slide--containt">
+						<h3 class="slide__containt--head">Article</h3>
+						<div class="slide__containt--comment">
+							<h4 class="containt__comment--header">Discover the winner of our annual innovation price
+							</h4>
+							<p class="containt__comment--text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reiciendis illum, quidem
+								eaque nihil
+								recusandae ullam est odit soluta cumque assumenda obcaecati provident ab, incidunt
+								aperiam? Quo labore
+								facilis tenetur.
+							</p>
+						</div>
+						<button class="header__containt--btn">read more</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__slide slide" id="header__slide--3">
+				<div class="header__slide--container">
+					<div class="header__slide--background">
+						<img src="./thumbnails/univ-lab.jpg">
+					</div>
+					<div class="header__slide--containt">
+						<h3 class="slide__containt--head">Campus life</h3>
+						<div class="slide__containt--comment">
+							<h4 class="containt__comment--header">A teaching based on research and pratice</h4>
+							<p class="containt__comment--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Nulla
+								reiciendis illum, quidem eaque nihil
+								recusandae ullam est odit soluta cumque assumenda obcaecati provident ab, incidunt
+								aperiam? Quo labore
+								facilis tenetur.</p>
+						</div>
+						<button class="header__containt--btn">Visit our infrastructure</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__slide slide" id="header__slide--4">
+				<div class="header__slide--container">
+					<div class="header__slide--background">
+						<img src="./thumbnails/online-class.jpg">
+					</div>
+					<div class="header__slide--containt">
+						<h3 class="slide__containt--head">New</h3>
+						<div class="slide__containt--comment">
+							<h4 class="containt__comment--header">Now you can access our online course</h4>
+							<p class="containt__comment--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Nulla
+								reiciendis illum, quidem eaque nihil
+								recusandae ullam est odit soluta cumque assumenda obcaecati provident ab, incidunt
+								aperiam? Quo labore
+								facilis tenetur.</p>
+						</div>
+						<button class="header__containt--btn">Log In</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__slide slide" id="header__slide--5">
+				<div class="header__slide--container">
+					<div class="header__slide--background">
+						<img src="./thumbnails/academic.jpg">
+					</div>
+					<div class="header__slide--containt">
+						<h3 class="slide__containt--head">Academics</h3>
+						<div class="slide__containt--comment">
+							<h4 class="containt__comment--header">We are regisrtring!</h4>
+							<p class="containt__comment--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Nulla
+								reiciendis illum, quidem eaque nihil
+								recusandae ullam est odit soluta cumque assumenda obcaecati provident ab, incidunt
+								aperiam? Quo labore
+								facilis tenetur.</p>
+						</div>
+						<button class="header__containt--btn">Log In</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="section section__1" id="section__1">
+			<h2 class="section__title">ABOUT OUR UNIVERISTY</h2>
+			<div class="section__1--container">
+				<div class="section1__div">
+					<div class="section1__div--img">
+						<img src="thumbnails/academic.jpg" alt="">
+					</div>
+					<div class="section1__div--text">
+						<h3 class="section1__text--head">Lorem, ipsum dolor.</h3>
+						<p class="section1__text--p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quod
+							perferendis
+							perspiciatis delectus dolor fugit incidunt eligendi quas expedita itaque sequi fugiat
+							dolorem eveniet,
+							ratione eaque laborum aliquam voluptatum iste.</p>
+					</div>
+				</div>
+				<div class="section1__div">
+					<div class="section1__div--img"><img src="thumbnails/electronics.jpg" alt=""></div>
+					<div class="section1__div--text">
+						<h3 class="section1__text--head">Lorem ipsum dolor sit.</h3>
+						<p class="section1__text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+							adipisci ea
+							amet tenetur quia, vel doloremque totam saepe dolores, distinctio, enim at harum reiciendis
+							est? Explicabo
+							expedita architecto laborum nisi.</p>
+					</div>
+				</div>
+				<div class="section1__div">
+					<div class="section1__div--img"><img src="thumbnails/library.jpg" alt=""></div>
+					<div class="section1__div--text">
+						<h3 class="section1__text--head">Lorem, ipsum dolor.</h3>
+						<p class="section1__text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi esse
+							nostrum
+							labore obcaecati exercitationem tempora aliquam corrupti ut voluptatum? Natus ratione
+							exercitationem
+							delectus dolore quam! Provident ea porro modi necessitatibus.</p>
+					</div>
+				</div>
+				<div class="section1__div">
+					<div class="section1__div--img"><img src="thumbnails/image6.jpg" alt=""></div>
+					<div class="section1__div--text">
+						<h3 class="section1__text--head">Lorem ipsum dolor sit amet.</h3>
+						<p class="section1__text--p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+							perspiciatis!
+							Deleniti dolorem architecto quas adipisci sunt voluptates iure officia nesciunt
+							necessitatibus voluptate,
+							distinctio ex totam asperiores, quis quo, aliquam enim minus sequi accusamus qui
+							exercitationem.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section__2" id="section__2">
+			<h2 class="section__title">OUR GOALS</h2>
+			<div class="section__2--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At commodi,
+				consectetur
+				assumenda esse facere quo aliquid veniam sint laudantium hic necessitatibus soluta, nesciunt deleniti
+				ipsa
+				animi. Sunt iusto earum non, repellat, aut officiis qui provident atque amet minus quam vel
+				necessitatibus porro
+				maxime architecto unde perspiciatis, laudantium tenetur iste excepturi! Doloribus voluptate accusantium
+				iure
+				incidunt fugiat maxime quos, aliquid ipsam fuga amet non ex sint, laborum architecto numquam mollitia
+				nulla. Id,
+				reiciendis! Autem voluptatibus, quae accusantium reiciendis obcaecati magnam. Harum!</div>
+			<div class="section2__divs--container">
+				<div class="section2__div">
+					<div class="section2__div--header">GOAL 1</div>
+					<div class="section2__div--containt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+						aspernatur repellendus alias a, velit optio excepturi dicta rem quae deserunt, eligendi libero
+						doloribus
+						sequi unde.</div>
+				</div>
+				<div class="section2__div">
+					<div class="section2__div--header">GOAL 2</div>
+					<div class="section2__div--containt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Doloribus atque
+						deserunt nesciunt ullam! Ab, necessitatibus non nostrum ad id sequi?</div>
+				</div>
+				<div class="section2__div">
+					<div class="section2__div--header">GOAL 3</div>
+					<div class="section2__div--containt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+						natus
+						possimus laudantium odit autem ipsam quod eaque accusamus fugiat consequuntur?</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section__3" id="section__3">
+			<h2 class="section__title">FACULTIES ORGANISED</h2>
+			<div class="section__3--container">
+				<div class="section__3--div">
+					<div class="section3__div--img">
+						<img src="thumbnails/biology.jpg" alt="">
+					</div>
+					<div class="section3__div--text">biology and chemistry</div>
+				</div>
+				<div class="section__3--div">
+					<div class="section3__div--img">
+						<img src="thumbnails/computer-science.jpg" alt="">
+					</div>
+					<div class="section3__div--text">Computer science</div>
+				</div>
+				<div class="section__3--div">
+					<div class="section3__div--img">
+						<img src="thumbnails/electronic.jpg" alt="">
+					</div>
+					<div class="section3__div--text">electronic and Electricity</div>
+				</div>
+				<div class="section__3--div">
+					<div class="section3__div--img">
+						<img src="thumbnails/civil-engineering.jpg" alt="">
+					</div>
+					<div class="section3__div--text">Civil Engineering</div>
+				</div>
+		</section>
+		<section class="section section__4" id="section__4">
+			<h2 class="section__title">INFRASTRUCTURE</h2>
+			<div class="section__4--containt">
+				<a href="https://youtube.com" target="_blank" class="youtube__link">
+					<img class="youtube__icon" src="icons/youtube-1.png" alt=""></a>
+			</div>
+		</section>
+		<section class=" section section__5" id="section__5">
+			<h2 class="section__title">ACHIEVEMENTS</h2>
+			<div class="section__5--container">
+				<div class="section__5--div">
+					<div class="section5__div--containt">
+						<div class="section5__containt--img"><img src="icons/graduated.png" alt=""></div>
+						<div class="section5__containt--text">12343 Graduated</div>
+					</div>
+				</div>
+				<div class="section__5--div">
+					<div class="section5__div--containt">
+						<div class="section5__containt--img"><img src="icons/lecturer.png" alt=""></div>
+						<div class="section5__containt--text">322 Teachers</div>
+					</div>
+				</div>
+				<div class="section__5--div">
+					<div class="section5__div--containt">
+						<div class="section5__containt--img"><img src="icons/winner.png" alt=""></div>
+						<div class="section5__containt--text">Best university</div>
+					</div>
+				</div>
+				<div class="section__5--div">
+					<div class="section5__div--containt">
+						<div class="section5__containt--img"><img src="icons/sand-clock.png" alt=""></div>
+						<div class="section5__containt--text">123 promotions</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section__6" id="section__6">
+			<button class="section6__slider--btn section6__btn--left"><img src="icons/left-arrow.png" alt=""></button>
+			<button class="section6__slider--btn section6__btn--right"><img src="icons/right-arrow.png" alt=""></button>
+			<div class="dots__btn--container"></div>
+			<h2 class="section__title">TESTIMONIES</h2>
+			<div class="section__6--slider">
+				<div class="section__6--slide slide" id="section6__slide--1">
+					<h3 class="testimony__head">Lorem ipsum dolor sit amet.</h3>
+					<blockquote class="testimony__containt">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Voluptas
+						fugit ad eveniet eius maxime non temporibus mollitia unde sint! Optio earum, qui expedita
+						obcaecati at
+						veniam consequatur corporis modi odio aspernatur aliquid velit blanditiis ea, id possimus
+						deleniti
+						perspiciatis pariatur cumque. Itaque ex eius, consectetur eligendi eaque sit possimus? Officia
+						ab earum hic,
+						natus alias, accusantium obcaecati in nisi ut voluptates porro nam sapiente, inventore neque
+						quas quibusdam
+						voluptas illo!</blockquote>
+					<div class="section6__addresses">
+						<div class="section6__img">
+							<img src="./thumbnails/testimony-1.jpg" alt="">
+						</div>
+						<address class="section6__info">
+							<div class="section6__name">Salomon Tshobohwa Sulemani</div>
+							<div class="section6__post">Student in Computer science</div>
+							<div class="section6__adress">stshobohwa@gmail.com</div>
+						</address>
+					</div>
+				</div>
+				<div class="section__6--slide slide" id="section6__slide--2">
+					<h3 class="testimony__head">Lorem ipsum dolor sit amet.</h3>
+					<blockquote class="testimony__containt">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Voluptas
+						fugit ad eveniet eius maxime non temporibus mollitia unde sint! Optio earum, qui expedita
+						obcaecati at
+						veniam consequatur corporis modi odio aspernatur aliquid velit blanditiis ea, id possimus
+						deleniti
+						perspiciatis pariatur cumque. Itaque ex eius, consectetur eligendi eaque sit possimus? Officia
+						ab earum hic,
+						natus alias, accusantium obcaecati in nisi ut voluptates porro nam sapiente, inventore neque
+						quas quibusdam
+						voluptas illo!</blockquote>
+					<div class="section6__addresses">
+						<div class="section6__img">
+							<img src="./thumbnails/testimony-1.jpg" alt="">
+						</div>
+						<address class="section6__info">
+							<div class="section6__name">Salomon Tshobohwa Sulemani</div>
+							<div class="section6__post">Student in Computer science</div>
+							<div class="section6__adress">stshobohwa@gmail.com</div>
+						</address>
+					</div>
+				</div>
+				<div class="section__6--slide slide" id="section6__slide--3">
+					<h3 class="testimony__head">Lorem ipsum dolor sit amet.</h3>
+					<blockquote class="testimony__containt">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Voluptas
+						fugit ad eveniet eius maxime non temporibus mollitia unde sint! Optio earum, qui expedita
+						obcaecati at
+						veniam consequatur corporis modi odio aspernatur aliquid velit blanditiis ea, id possimus
+						deleniti
+						perspiciatis pariatur cumque. Itaque ex eius, consectetur eligendi eaque sit possimus? Officia
+						ab earum hic,
+						natus alias, accusantium obcaecati in nisi ut voluptates porro nam sapiente, inventore neque
+						quas quibusdam
+						voluptas illo!</blockquote>
+					<div class="section6__addresses">
+						<div class="section6__img">
+							<img src="./thumbnails/testimony-1.jpg" alt="">
+						</div>
+						<address class="section6__info">
+							<div class="section6__name">Salomon Tshobohwa Sulemani</div>
+							<div class="section6__post">Student in Computer science</div>
+							<div class="section6__adress">stshobohwa@gmail.com</div>
+						</address>
+					</div>
+				</div>
+				<div class=" section__6--slide slide" id="section6__slide--4">
+					<h3 class="testimony__head">Lorem ipsum dolor sit amet.</h3>
+					<blockquote class="testimony__containt">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Voluptas
+						fugit ad eveniet eius maxime non temporibus mollitia unde sint! Optio earum, qui expedita
+						obcaecati at
+						veniam consequatur corporis modi odio aspernatur aliquid velit blanditiis ea, id possimus
+						deleniti
+						perspiciatis pariatur cumque. Itaque ex eius, consectetur eligendi eaque sit possimus? Officia
+						ab earum hic,
+						natus alias, accusantium obcaecati in nisi ut voluptates porro nam sapiente, inventore neque
+						quas quibusdam
+						voluptas illo!</blockquote>
+					<div class="section6__addresses">
+						<div class="section6__img">
+							<img src="./thumbnails/testimony-1.jpg" alt="">
+						</div>
+						<address class="section6__info">
+							<div class="section6__name">Salomon Tshobohwa Sulemani</div>
+							<div class="section6__post">Student in Computer science</div>
+							<div class="section6__adress">stshobohwa@gmail.com</div>
+						</address>
+					</div>
+				</div>
+				<div class="section__6--slide slide" id="section6__slide--5">
+					<h3 class="testimony__head">Lorem ipsum dolor sit amet.</h3>
+					<blockquote class="testimony__containt">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+						Voluptas
+						fugit ad eveniet eius maxime non temporibus mollitia unde sint! Optio earum, qui expedita
+						obcaecati at
+						veniam consequatur corporis modi odio aspernatur aliquid velit blanditiis ea, id possimus
+						deleniti
+						perspiciatis pariatur cumque. Itaque ex eius, consectetur eligendi eaque sit possimus? Officia
+						ab earum hic,
+						natus alias, accusantium obcaecati in nisi ut voluptates porro nam sapiente, inventore neque
+						quas quibusdam
+						voluptas illo!</blockquote>
+					<div class="section6__addresses">
+						<div class="section6__img">
+							<img src="./thumbnails/testimony-1.jpg" alt="">
+						</div>
+						<address class="section6__info">
+							<div class="section6__name">Salomon Tshobohwa Sulemani</div>
+							<div class="section6__post">Student in Computer science</div>
+							<div class="section6__adress">stshobohwa@gmail.com</div>
+						</address>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section section__7" id="section__7">
+			<h2 class="section__title"> ACTUALITIES</h2>
+			<div class="section__7--containt">
+				<div class="section7__containt--left">
+					<div class="section7__article--containt"></div>
+				</div>
+				<div class="section7__containt--right">
+					<div class="section7__right--item" id="section7__article--1">
+						<div class="section7__article--containt"></div>
+					</div>
+					<div class="section7__right--item" id="section7__article--2">
+						<div class="section7__article--containt"></div>
+					</div>
+					<div class="section7__right--item" id="section7__article--3">
+						<div class="section7__article--containt"></div>
+					</div>
+					<div class="section7__right--item" id="section7__article--4">
+						<div class="section7__article--containt"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class=" section section__8" id="section__8">
+			<h2 class="section__title">PATERNERSHIP AND SPONSORING</h2>
+			<div class="section__8--container">
+				<div class="section__8--div"><img src="icons/convetry-univ-logo.png" alt=""></div>
+				<div class="section__8--div"><img src="icons/indiana-univ-logo.png" alt=""></div>
+				<div class="section__8--div"><img src="icons/nottingham.png" alt=""></div>
+				<div class="section__8--div"><img src="icons/Tulane-univ-logo.png" alt=""></div>
+				<div class="section__8--div"><img src="icons/oxford-univ-logo.png" alt=""></div>
+				<div class="section__8--div"><img src="icons/uister-univ-logo.png" alt=""></div>
+				<div class="section__8--div"><img src="icons/urc-univ-logo.png" alt=""></div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__containt">
+			<div class="message__box">
+				<div class="message__box--left">
+					<h3 class="message__title">Text us anonymously</h3>
+					<p class="message__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+						quisquam.</p>
+				</div>
+				<div class="message__box--right">
+					<input type="text" class="message__input">
+					<button class="message__send--btn">Send</button>
+				</div>
+			</div>
+			<div class="footer__items">
+				<div class="footer__left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, soluta.</div>
+				<div class="footer__middle">
+					<h3 class="footer__header">main links</h3>
+					<ul class="footer__ul">
+						<li class="footer__li"><a href="#home" class="footer__link">Home</a>
+						</li>
+						<li class="footer__li"><a href="#section__1" class="footer__link">About our university</a>
+						</li>
+						<li class="footer__li"><a href="#section__2" class="footer__link">Our goals</a>
+						</li>
+						<li class="footer__li"><a href="#section__3" class="footer__link">Faculties organised</a>
+						</li>
+						<li class="footer__li"><a href="#section__4" class="footer__link">Infrastructure</a>
+						</li>
+						<li class="footer__li"><a href="#section__5" class="footer__link">Achievemets</a>
+						</li>
+						<li class="footer__li"><a href="#section__6" class="footer__link">Testimonies</a>
+						</li>
+						<li class="footer__li"><a href="#section__7" class="footer__link">Actualities</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__right">
+					<h3 class="footer__header">follow us:</h3>
+					<ul class="footer__icons">
+						<li>
+							<a href="https://instagram.com" class="footer__icon--link" target="_blank">
+								<img src="icons/instagram.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com" class="footer__icon--link" target="_blank">
+								<img src="icons/twitter.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="https://gmail.com" class="footer__icon--link" target="_blank">
+								<img src="icons/google-plus-logo.png" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<p><a class="footer__tiwtter--link">&copy;Salomon Tahobohwa.</a> All right reserved. use for portfolio
+					only.</p>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
